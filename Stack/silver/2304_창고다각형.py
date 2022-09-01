@@ -16,7 +16,7 @@ for i in range(n) :
             left = stack.pop()
             ret += (heights[i][0] - left[0]) * left[1]
             stack.append(heights[i])
-if stack :
+if stack :ø
     top = stack.pop()
     ret += top[1]
 stack = []
